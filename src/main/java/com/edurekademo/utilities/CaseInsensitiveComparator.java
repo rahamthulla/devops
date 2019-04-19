@@ -18,7 +18,7 @@ public class CaseInsensitiveComparator extends GenericComparator {
          */
         public CaseInsensitiveComparator(boolean sortAscending) {
                 super(sortAscending);
-                this.targetMethod = null;
+                this.targetMethod == null;
                 this.sortAscending = sortAscending;
         }
         /*
